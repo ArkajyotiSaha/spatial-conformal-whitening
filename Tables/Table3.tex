@@ -1,0 +1,15 @@
+\begin{tabular}{lccccr}
+\toprule
+Design & Naive & GSCP & LSCP & Whitened & Predicted coverage\\
+\midrule
+\multicolumn{6}{l}{\emph{Role-dependent sampling}}\\
+Disjoint halves & $.897/3.41$ & $.900/3.22$ & $.910/3.24$ & $.914/\mathbf{1.98}$ & $.908$\\
+Quadrant & $.889/3.15$ & $.895/2.73$ & $.902/2.79$ & $.907/\mathbf{1.93}$ & $.905$\\
+Clustered calibration & $.903/3.21$ & $.906/2.04$ & $.923/2.18$ & $.904/\mathbf{1.93}$ & $.901$\\
+\midrule
+\multicolumn{6}{l}{\emph{Coverage stress tests}}\\
+Distant patch & $.914/3.34$ & $.850/1.90$ & $.907/\infty$ & $.908/\mathbf{1.86}$ & $.911$\\
+Block holdout & $.853/3.05$ & $.870/2.74$ & $.880/2.89$ & $.873/\mathbf{2.64}$ & $.886$\\
+Varying range & $.866/3.39$ & $.876/2.39$ & $.902/2.59$ & $.878/\mathbf{2.29}$ & $.861$\\
+\bottomrule
+\end{tabular}
